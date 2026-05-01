@@ -118,7 +118,11 @@ CLIENT_URL=http://localhost:5173
 
 ### Frontend (`frontend/.env`)
 ```env
+# Local development
 VITE_API_URL=http://localhost:5000/api
+
+# Production (replace with your deployed backend URL)
+# VITE_API_URL=https://your-backend.onrender.com/api
 ```
 
 ---
