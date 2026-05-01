@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "npx serve dist --single --listen $PORT"
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
